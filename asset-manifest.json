@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/to-do-list/static/css/main.91910a86.css",
+    "main.js": "/to-do-list/static/js/main.61ebb137.js",
+    "static/media/Perfect DOS VGA 437.ttf": "/to-do-list/static/media/Perfect DOS VGA 437.4df1d5bd795358c80faa.ttf",
+    "index.html": "/to-do-list/index.html",
+    "main.91910a86.css.map": "/to-do-list/static/css/main.91910a86.css.map",
+    "main.61ebb137.js.map": "/to-do-list/static/js/main.61ebb137.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91910a86.css",
+    "static/js/main.61ebb137.js"
+  ]
+}
