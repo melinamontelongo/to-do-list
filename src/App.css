@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cookie&family=Cutive+Mono&family=Lobster&family=Press+Start+2P&family=Sevillana&family=Silkscreen&family=VT323&display=swap');
+@font-face {
+  font-family: "Perfect DOS VGA 437";
+  src: local("Perfect DOS VGA 437"),
+      url("assets/fonts/Perfect\ DOS\ VGA\ 437.ttf") format("truetype");
+  font-weight: bold;
+}
+html,body{
+  background: #FEAC5E; 
+  background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); 
+  background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); 
+  font-family: "Perfect DOS VGA 437", monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  width: 100%;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.to-do-container{
+  width: 600px;
+  min-height: 500px;
+  background-color: #b993d673;
+  color: rgb(255, 255, 255);
+  padding: 25px;
+  margin: 10px;
 }

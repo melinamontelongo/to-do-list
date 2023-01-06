@@ -1,0 +1,22 @@
+.form-control{
+    background-color: #f0dcff;
+    border: 1px dashed rgb(255, 255, 255);
+    box-shadow: 2px 3px #8e7e9b;
+}
+.form-control:focus {
+    box-shadow: 2px 3px #8e7e9b;
+    outline: none;
+    border: 1px dashed rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.btn{
+    color: white;
+    background-color: #424649;
+    border: 1px dashed rgb(255, 255, 255);
+    box-shadow: 2px 3px #8e7e9b;
+}
+
+.btn:hover{
+    border: 1px dashed white;
+}

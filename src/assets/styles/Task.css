@@ -1,0 +1,13 @@
+.list-group-item{
+    background: #e2c5f8ad;
+    border: none;
+    box-shadow: 2px 3px #8e7e9b;
+}
+
+.btn-close:focus{
+    box-shadow: none;
+}
+
+.icon-hidden{
+    display: none;
+}
